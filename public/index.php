@@ -57,7 +57,7 @@ $daftar = db()
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <>
+    <main>
         <h1>Buku Tamu</h1>
 
         <?php if ($errors): ?>

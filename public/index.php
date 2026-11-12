@@ -57,7 +57,7 @@ $daftar = db()
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <main>
+    <>
         <h1>Buku Tamu</h1>
 
         <?php if ($errors): ?>
@@ -95,6 +95,9 @@ $daftar = db()
                 <p><?= nl2br(e($item['isi'])) ?></p>
             </article>
         <?php endforeach; ?>
+        <footer>
+            <small>Dibuat oleh Radhi · Deploy di VPS sendiri</small>
+        </footer>
     </main>
 </body>
 </html>
